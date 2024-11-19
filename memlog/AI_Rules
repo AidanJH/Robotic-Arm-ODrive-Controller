@@ -1,0 +1,49 @@
+# AI Rules
+
+## General Guidelines
+- Refer to `Project_Summary.md` at the start of any new task.
+- Update `debug_ref.md` with any large issues encountered and their solutions, always refer to this file whenever any bugs are noted or any undesireable functionality occurs based on user feedback.
+- Use `dependency_ref.md` for quick access to library documentation, and document any version requirements and service dependencies.
+- Use 'stability_checklist.md' to understand testing process and unit testing coverage.
+- Read all files memlog at the beginning of any task, before providing any responses or taking any actions.
+
+## Code Style
+- Keep files small and modular.
+- Use unit tests where applicable.
+- Follow React.js and TypeScript best practices.
+- Most constants, configurations, and long strings to separate files
+- If a file starts to get too long, offer to refactor it
+
+## Task breakdown and execution
+-  Break down all user instructions into clear, numbered steps.
+- Include both actions and reasoning for each step.
+- Flag potential issues before they arise.
+- Verify the completion of each step before proceeding to the next.
+
+## Error Handling and Reporting
+- Implement detailed and actionable error reporting.
+- Log errors with context and timestamps.
+- Provide users with clear steps for error recovery.
+- Track error history to identify patterns, this should be stored in debug_ref.md.
+
+## Code Documentation
+- Write clear, concise comments for all sections of code.
+- Document the purpose and expected behavior of functions and modules.
+
+## Problem-Solving Approach
+- Exhaust all options before determining an action is impossible.
+- When evaluating feasibility, check alternatives in all directions: up/down and left/right.
+- Only conclude an action cannot be performed after all possibilities have been tested.
+
+## Testing and Quality Assurance
+
+- Implement comprehensive unit tests for all components.
+- Perform integration testing to ensure different parts of the system work together.
+- Conduct thorough end-to-end testing to validate user workflows.
+- Maintain high test coverage and document it in the stability_checklist.md.
+
+## Documentation
+
+- Maintain up-to-date API documentation.
+- Provide clear, step-by-step guides for setup and deployment.
+- Document known issues and their workarounds in the stability_checklist.md.
